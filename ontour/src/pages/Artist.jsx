@@ -13,6 +13,10 @@ function Artist() {
           <div class="container py-5">
             <h2 class="h3 font-weight-bold">Photo Gallery</h2>
           </div>
+
+          <div class="container py-5">
+            <h2 class="h3 font-weight-bold">Upcoming Shows</h2>
+          </div>
     </div>
   );
 }
