@@ -22,3 +22,12 @@ code {
   background-size: cover;
   position: relative;
 }
+
+.date-btn {
+  width: 9vh;
+  height: 9vh;
+}
+
+.list-width {
+  width: 60%;
+}
