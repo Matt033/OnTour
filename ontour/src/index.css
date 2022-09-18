@@ -28,6 +28,19 @@ code {
   height: 9vh;
 }
 
-.list-width {
-  width: 60%;
+.show-location {
+  text-align: left;
+}
+
+.shows {
+  width: 50%;
+}
+
+.shows a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.show {
+  border-bottom: 1.5px solid #999;
 }

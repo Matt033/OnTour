@@ -14,67 +14,126 @@ function Artist() {
             <h2 class="h3 font-weight-bold">Photo Gallery</h2>
           </div>
 
-          <div class="container py-5">
-            <h2 class="h3 font-weight-bold">Upcoming Shows</h2>
-            <div class="d-flex justify-content-center">
-            <ul class="list-group list-width">
-              <li class="list-group-item">
-                <div class="row">
-                  <div class="col-1">
+          <div class="container py-5 shows">
+            <div class="row justify-content-center py-3 show">
+              <h2 class="h3 font-weight-bold">Upcoming Shows</h2>
+            </div>
+
+            <a href="/review">
+              <div class="row justify-content-center py-3 show">
+                <div class="col-2">
                   <button type="button" class="date-btn btn btn-secondary">
                     <h6>
-                      Sep 16
+                      Sep 23
                     </h6>
                   </button>
+                </div>
+                <div class="col-8 show-location">
+                  <div class="font-weight-bold">
+                    Primavera Sound LA 2022
                   </div>
-                  <div class="col-3">
-                    <div class="px-5 font-weight-bold">
-                      City, State
-                    </div>
-                  </div>
-                  <div class="col-8">
-                    hi
+                  <div>
+                    Los Angeles, California
                   </div>
                 </div>
-              </li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            </div> 
+                <div class="col-2 align-self-center">
+                  <img src="https://assets.sk-static.com/images/nw/furniture/icons/chevron-black.svg"></img>
+                </div>
+              </div>
+            </a>
+
+            <a href="/review">
+              <div class="row justify-content-center py-3 show">
+                <div class="col-2">
+                  <button type="button" class="date-btn btn btn-secondary">
+                    <h6>
+                      Sep 27
+                    </h6>
+                  </button>
+                </div>
+                <div class="col-8 show-location">
+                  <div class="font-weight-bold">
+                    Super Legends Cruise 2022
+                  </div>
+                  <div>
+                    Long Beach, California
+                  </div>
+                </div>
+                <div class="col-2 align-self-center">
+                  <img src="https://assets.sk-static.com/images/nw/furniture/icons/chevron-black.svg"></img>
+                </div>
+              </div>
+            </a>
+
+            <a href="/review">
+              <div class="row justify-content-center py-3">
+                <u>
+                  See more upcoming shows
+                </u>
+              </div>
+            </a>
           </div>
 
-          <div class="container py-5">
-            <h2 class="h3 font-weight-bold">Past Shows</h2>
-            <div class="d-flex justify-content-center">
-            <ul class="list-group list-width">
-              <li class="list-group-item">
-                <div class="row">
-                  <div class="col-1">
+          <div class="container py-5 shows">
+            <div class="row justify-content-center py-3 show">
+              <h2 class="h3 font-weight-bold">Past Shows</h2>
+            </div>
+
+            <a href="/review">
+              <div class="row justify-content-center py-3 show">
+                <div class="col-2">
                   <button type="button" class="date-btn btn btn-secondary">
                     <h6>
-                      Sep 16
+                      Sep 7
                     </h6>
                   </button>
+                </div>
+                <div class="col-8 show-location">
+                  <div class="font-weight-bold">
+                    Primavera Sound LA 2021
                   </div>
-                  <div class="col-3">
-                    <div class="px-5 font-weight-bold">
-                      City, State
-                    </div>
-                  </div>
-                  <div class="col-8">
-                    hi
+                  <div>
+                    Los Angeles, California
                   </div>
                 </div>
-              </li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            </div> 
+                <div class="col-2 align-self-center">
+                  <img src="https://assets.sk-static.com/images/nw/furniture/icons/chevron-black.svg"></img>
+                </div>
+              </div>
+            </a>
+
+            <a href="/review">
+              <div class="row justify-content-center py-3 show">
+                <div class="col-2">
+                  <button type="button" class="date-btn btn btn-secondary">
+                    <h6>
+                      Sep 15
+                    </h6>
+                  </button>
+                </div>
+                <div class="col-8 show-location">
+                  <div class="font-weight-bold">
+                    Super Legends Cruise 2021
+                  </div>
+                  <div>
+                    Long Beach, California
+                  </div>
+                </div>
+                <div class="col-2 align-self-center">
+                  <img src="https://assets.sk-static.com/images/nw/furniture/icons/chevron-black.svg"></img>
+                </div>
+              </div>
+            </a>
+
+            <a href="/review">
+              <div class="row justify-content-center py-3">
+                <u>
+                  See more past shows
+                </u>
+              </div>
+            </a>
           </div>
+          
     </div>
   );
 }
