@@ -44,3 +44,13 @@ code {
 .show {
   border-bottom: 1.5px solid #999;
 }
+
+#upcoming-btn, #past-btn {
+  border: none;
+  background-color: inherit;
+  text-decoration: underline;
+}
+
+.more-upcoming, .more-past {
+  display: none;
+}
