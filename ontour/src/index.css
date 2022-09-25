@@ -14,7 +14,7 @@ code {
 
 .artist{
   width: 100%;
-  height: 250px;
+  height: 100%;
   margin: auto;
 }
 #artist-background{
@@ -70,10 +70,6 @@ code {
   text-align: left;
 }
 
-.shows {
-  width: 50%;
-}
-
 .shows a {
   text-decoration: none;
   color: inherit;
@@ -96,4 +92,24 @@ code {
 .social-media-icon{
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  width: 27%;
+  float: right;
+  margin-right: 3%;
+}
+
+.no-sidebar {
+  width: 70%;
+}
+
+.schedule-font {
+  font-size: 14px;
+}
+
+.schedule-subfont {
+  font-size: 12px;
 }
